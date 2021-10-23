@@ -1,0 +1,600 @@
+.paxs h6,
+.paxs p {
+    color: #000;
+}
+
+
+/* css by ahmed */
+
+.nav-pills .nav-link {
+    background: #f5faff !important;
+    border-radius: 10px !important;
+    margin: 10px 0 !important;
+    padding: 12px 1rem !important;
+    text-align: left !important;
+    color: #003ec9 !important;
+    font-weight: 600;
+}
+
+.check-inp {
+    margin-left: 10px;
+}
+
+.check-inp h6 {
+    font-weight: 600;
+}
+
+.cstm-check label,
+.example-det label,
+.example-modal p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #666666;
+}
+
+.example-det .example-date {
+    margin-left: 15px;
+}
+
+.modal .cstm-check {
+    background: #F5FAFF;
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+}
+
+.modal-header {
+    background: #003EC9;
+    color: #fff;
+}
+
+.notification-card {
+    background-color: #f5faff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+}
+
+.notification-card-text h3 {
+    font-size: 1rem;
+    font-weight: 600 !important;
+    color: #000000 !important;
+}
+
+.notification-card-text h5 {
+    font-size: 14px;
+    margin-bottom: 0%;
+    margin-top: 5px;
+    color: #999999;
+}
+
+.notification-date {
+    color: #999999;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.upload-modal .modal-header button {
+    background: #fff;
+    border: none;
+    border-radius: 50px;
+    color: #003ec9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+}
+
+.upload-modal .col-sm-6:nth-child(2) {
+    justify-content: flex-end;
+}
+
+.example-det {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.example-det label {
+    margin-right: 10px;
+}
+
+.example1 {
+    background: #f5faff;
+    padding: 0.5rem 5rem 0.5rem 1rem;
+    border-radius: 15px;
+    position: relative;
+}
+
+.example-modal .modal-body i {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.red-col a {
+    color: #FF0000 !important;
+}
+
+.add-note {
+    padding: 0.7rem 1rem;
+    color: #003ec9;
+    border: 1px solid #003ec9;
+    border-radius: 10px;
+    background: #fff;
+    font-weight: 500;
+}
+
+.upload-modal .copy-btn {
+    background: #003ec9;
+    color: #fff;
+    padding: 0.7rem 2rem;
+}
+
+.approv-btn {
+    position: absolute;
+    left: 84%;
+    top: 15%;
+    cursor: pointer;
+}
+
+.transiction-inner .greyBtnRound {
+    background: #F5FAFF;
+    /* padding: 0.5rem 3rem; */
+    border: none;
+    border-radius: 10px;
+    color: #003EC9;
+    font-weight: 500;
+    height: 50px;
+    min-width: 110px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.transiction-inner .greyBtnRound i {
+    margin-top: 1px;
+    margin-right: 10px;
+}
+
+
+/* three dots menu */
+
+.dots-list {
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    background: white;
+    box-shadow: 0px 0px 10px #00000047;
+    padding: 10px 14px 10px 10px;
+    border-radius: 10px;
+    transition: 0.2s all ease-in-out;
+}
+
+.ice-blue-color {
+    color: #29ABE2 !important;
+    font-family: 'montsemibold';
+    font-size: 14px;
+}
+
+.dots-list a {
+    display: flex;
+    text-decoration: none;
+    color: #000000;
+    justify-content: center;
+}
+
+.dots-list a i {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    color: #B3B3B3;
+    font-size: 14px;
+}
+
+.dots-list a p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0%;
+    font-family: gilroymedium;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.dots-list a .icon-red {
+    color: red;
+}
+
+.hide-dot-menu {
+    display: block;
+}
+
+.example-edit-modal .example1 {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.btn-col {
+    position: relative;
+}
+
+.btn-col::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 10px;
+    z-index: 70;
+    width: 1px;
+    height: 100%;
+    background: #999999;
+}
+
+.pd-r p {
+    padding-right: 5rem;
+}
+
+
+/* css by hadi */
+
+.cstm-modal {
+    position: relative;
+    width: 80% !important;
+    margin: .5rem;
+    pointer-events: none;
+    margin: 1.75rem auto;
+}
+
+.modal.fade .modal-dialog {
+    transition: transform .3s ease-out;
+    transform: translate(0, -50px);
+}
+
+.upload-cstm-modal .modal-header {
+    background: #003EC9;
+    color: white;
+}
+
+.upload-cstm-modal .modal-header i {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.modal-dash-box1 h1 {
+    font-size: 22px;
+}
+
+.modal-dash-box2 h1 {
+    font-size: 20px;
+}
+
+.modal-dash-box1 p {
+    font-size: 14px;
+    color: #666666;
+}
+
+.modal-dash-box2 p {
+    font-size: 16px;
+    color: #666666;
+}
+
+.modal-dash-box1 {
+    padding: 2rem;
+    border: 1px dashed #00000014;
+    text-align: center;
+    border-radius: 10px;
+    border-width: 5px;
+}
+
+.modal-dash-box2 {
+    padding: 2rem;
+    border: dashed #00000014;
+    text-align: center;
+    border-radius: 10px;
+    border-width: 5px;
+}
+
+.tc-modal-footer label {
+    color: #808080;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.tc-modal-footer .modal-input {
+    border: none;
+    border-bottom: 1px solid #999999;
+}
+
+.tc-modal-footer input::placeholder {
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.modal-blueBtn-square {
+    background: #003EC9;
+    /* padding: 0.5rem 3rem; */
+    border: 1px solid #003EC9;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+    height: 38px;
+    min-width: 100px;
+    padding: 0px 10px;
+}
+
+.task-modal .task-modal-1 label {
+    color: #808080;
+}
+
+.task-modal .task-modal-1 input {
+    border: none;
+    border-bottom: 1px solid #999999;
+}
+
+.task-modal .task-modal-1 input::placeholder {
+    color: black;
+    font-weight: 400;
+}
+
+.task-modal .task-modal-2 label {
+    color: #808080;
+}
+
+.task-modal .task-modal-2 {
+    margin-top: 2rem;
+}
+
+.task-modal .task-modal-2 select {
+    border: none;
+    border-bottom: 1px solid #464040;
+}
+
+.task-modal .task-modal-2 select {
+    color: black;
+    font-weight: 400;
+}
+
+.task-modal .task-modal-2 input {
+    color: black;
+    font-weight: 400;
+    border: none;
+    border-bottom: 1px solid #999999;
+}
+
+.task-modal-select select {
+    border: none;
+    border-bottom: 1px solid #999999;
+    color: black;
+    font-weight: 400;
+}
+
+.share-row-1 {
+    background-color: #F5FAFF;
+    padding-top: 12px;
+    border-radius: 10px;
+}
+
+.modal-for-padding {
+    padding: 10px;
+}
+
+.modal-grey-p p {
+    color: #666666;
+    font-weight: 500;
+    margin-bottom: 0%;
+}
+
+.cstm-checkmark {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: 500;
+}
+
+.share-modal-last-input label {
+    color: 808080;
+}
+
+
+/* Hide the browser's default checkbox */
+
+.cstm-checkmark input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+
+/* Create a custom checkbox */
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #eee;
+    border: 1px solid #003ec9;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.cstm-checkmark:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+
+.cstm-checkmark input:checked~.checkmark {
+    background-color: #003ec9;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the checkmark when checked */
+
+.cstm-checkmark input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the checkmark/indicator */
+
+.cstm-checkmark .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 11px;
+    border: solid white 1px;
+    border-width: 0px 2px 2px 0;
+    -webkit-transform: rotate( 45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate( 45deg);
+}
+
+.share-modal-select select {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #666666;
+}
+
+.share-modal-select select {
+    color: #003EC9;
+    font-weight: 500;
+}
+
+.share-modal-last-input label {
+    color: #808080;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.share-modal-last-input1 label {
+    color: #808080;
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 1.5rem;
+}
+
+.share-modal-last-input input::placeholder {
+    border: none;
+    color: black;
+    font-weight: 500;
+}
+
+.share-mid-section .span1 {
+    font-size: 1rem;
+    color: #808080;
+    font-size: 500;
+}
+
+.share-mid-section .span2 {
+    font-size: 1rem;
+    color: #29ABE2;
+    font-size: 500;
+}
+
+.share-modal-top-content h4 {
+    color: #808080;
+    font-weight: 500;
+}
+
+.share-modal-top-content p {
+    color: #000;
+    font-weight: 500;
+}
+
+.share-modal-sec-content h3 {
+    color: #808080;
+    font-weight: 500;
+}
+
+.share-modal-last-input input {
+    border: none;
+    border-bottom: 1px solid #464040;
+}
+
+.share-modal-last-input1 select {
+    border: none;
+    border-bottom: 1px solid #464040;
+    color: black;
+    font-weight: 500;
+}
+
+.share-modal-last-input1 select option {
+    border: none;
+    font-weight: 500;
+    color: #464040;
+}
+
+.share-modal-last-input select option {
+    border: none;
+    font-weight: 500;
+    color: #464040;
+}
+
+.share-modal-last-input select {
+    border: none;
+    font-weight: 500;
+    color: #003EC9;
+}
+
+.share-modal-footer {
+    border: none !important;
+}
+
+@media only screen and (max-width:768px) {
+    .select-all-check {
+        margin-top: 15px;
+    }
+    .upload-modal .col-lg-12:nth-child(1) {
+        margin-bottom: 15px !important;
+    }
+    .example1 {
+        padding: 0.5rem 1rem 0.5rem 1rem;
+    }
+    .example-det .example-date {
+        margin-left: 0;
+    }
+    .pd-r p {
+        padding-right: 0;
+    }
+    .btn-col::after {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:414px) {
+    .dots-list {
+        right: 23px;
+        top: 31px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .upload-modal .col-sm-6:nth-child(2) {
+        margin-top: 5px;
+    }
+    .dots-list {
+        opacity: 0;
+        transition: 0.2s all ease-in;
+    }
+}
